@@ -84,7 +84,6 @@ body {
 .panel p {
   text-transform: uppercase;
   font-size: 2em;
-
 }
 
 .panel p:nth-child(2) {
@@ -93,6 +92,15 @@ body {
 
 .panel.open {
   font-size: 40px;
+}
+
+/*ACTIVATED WITH JAVASCRIPT*/
+.panel.open-active > *:first-child{
+  transform: translateY(0);
+}
+
+.panel.open-active > *:last-child{
+  transform: translateY(0);
 }
 
 
